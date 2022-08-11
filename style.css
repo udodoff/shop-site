@@ -183,6 +183,7 @@ a {
   flex-wrap: wrap;
 }
 .card {
+  display: block;
   margin-top: 30px;
   width: 360px;
   background-color: #f8f8f8;
