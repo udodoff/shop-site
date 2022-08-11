@@ -282,7 +282,7 @@ a {
   padding-right: 40px;
 }
 .footer-top {
-  background-image: url(icons/footer-back.png);
+  background-image: url(../icons/footer-back.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -399,32 +399,32 @@ a {
   background-color: #f16d7f;
 }
 .card-img-top-1 {
-  background-image: url(icons/card-man-1.png);
+  background-image: url(../icons/card-man-1.png);
   width: 360px;
   height: 420px;
 }
 .card-img-top-2 {
-  background-image: url(icons/card-man-2.png);
+  background-image: url(../icons/card-man-2.png);
   width: 360px;
   height: 420px;
 }
 .card-img-top-3 {
-  background-image: url(icons/card-man-3.png);
+  background-image: url(../icons/card-man-3.png);
   width: 360px;
   height: 420px;
 }
 .card-img-top-4 {
-  background-image: url(icons/card-man-4.png);
+  background-image: url(../icons/card-man-4.png);
   width: 360px;
   height: 420px;
 }
 .card-img-top-5 {
-  background-image: url(icons/card-man-5.png);
+  background-image: url(../icons/card-man-5.png);
   width: 360px;
   height: 420px;
 }
 .card-img-top-6 {
-  background-image: url(icons/card-man-6.png);
+  background-image: url(../icons/card-man-6.png);
   width: 360px;
   height: 420px;
 }
