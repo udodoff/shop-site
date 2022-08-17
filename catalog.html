@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7e01259ada.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/catalog-style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <nav class="container flex nav-flex">
+        <div class="logo flex">
+          <a href="index.html"
+            ><img class="logo-img" src="icons/logo.svg" alt="logo"
+          /></a>
+          <a href="#"><img src="icons/search.svg" alt="search" /></a>
+        </div>
+        <div class="nav-icons flex">
+          <div class="menu-icon">
+            <img class="menu" src="icons/menu-icon.svg" alt="menu" />
+
+            <div class="mega-box">
+              <div class="item">
+                <h3 class="menu-heading">Man</h3>
+                <a class="mega-link" href="#">Accessories</a>
+                <a class="mega-link" href="#">Bags</a>
+                <a class="mega-link" href="#">Denim</a>
+                <a class="mega-link" href="#">T-Shirts</a>
+              </div>
+              <div class="item">
+                <h3 class="menu-heading">Woman</h3>
+                <a class="mega-link" href="#">Accessories</a>
+                <a class="mega-link" href="#">Jackets & Coats</a>
+                <a class="mega-link" href="#">Polos</a>
+                <a class="mega-link" href="#">T-Shirts</a>
+                <a class="mega-link" href="#">Shirts</a>
+              </div>
+              <div class="item">
+                <h3 class="menu-heading">Kids</h3>
+                <a class="mega-link" href="#">Accessories</a>
+                <a class="mega-link" href="#">Jackets & Coats</a>
+                <a class="mega-link" href="#">Polos</a>
+                <a class="mega-link" href="#">T-Shirts</a>
+                <a class="mega-link" href="#">Shirts</a>
+                <a class="mega-link" href="#">Bags</a>
+              </div>
+            </div>
+          </div>
+          <a href="#"
+            ><img class="cabinet" src="icons/cabinet.svg" alt="cabinet"
+          /></a>
+          <a href="#"><img class="cart" src="icons/cart.svg" alt="cart" /></a>
+        </div>
+      </nav>
+    </header>
+    <div class="content">
+      <section class="top-section">
+        <div class="container flex-align">
+          <h1 class="arrivals">NEW ARRIVALS</h1>
+          <p class="bread">
+            <a class="link-bread" href="index.html">HOME</a> /
+            <a class="link-bread" href="#">MEN</a> /
+            <span class="newa">NEW ARRIVALS</span>
+          </p>
+        </div>
+      </section>
+      <section class="main">
+        <div class="container flex-filter">
+          <div class="filter-left">
+            <p class="filter">FILTER</p>
+            <i class="fa-solid fa-filter"></i>
+            <div class="mega-filter">
+              <details class="mega-details">
+                <summary class="sum">CATEGORY</summary>
+                <a class="details-link" href="#">Accessories</a>
+                <a class="details-link" href="#">Bags</a>
+                <a class="details-link" href="#">Denim</a>
+                <a class="details-link" href="#">Jackets & Coats</a>
+                <a class="details-link" href="#">Polos</a>
+                <a class="details-link" href="#">Shirts</a>
+                <a class="details-link" href="#">Shoes</a>
+                <a class="details-link" href="#">Sweaters & Knits</a>
+                <a class="details-link" href="#">T-Shirts</a>
+                <a class="details-link" href="#">Tanks</a>
+                <a class="details-link" href="#">Hoodies & Sweatshirts</a>
+              </details>
+              <details class="mega-details">
+                <summary class="sum">BRAND</summary>
+                <a class="details-link" href="#">Accessories</a>
+                <a class="details-link" href="#">Bags</a>
+                <a class="details-link" href="#">Denim</a>
+                <a class="details-link" href="#">Jackets & Coats</a>
+                <a class="details-link" href="#">Polos</a>
+              </details>
+              <details class="mega-details">
+                <summary class="sum">DESIGNER</summary>
+                <a class="details-link" href="#">Accessories</a>
+                <a class="details-link" href="#">Bags</a>
+                <a class="details-link" href="#">Denim</a>
+                <a class="details-link" href="#">Jackets & Coats</a>
+                <a class="details-link" href="#">Polos</a>
+              </details>
+            </div>
+          </div>
+          <div class="filter-center">
+            <select class="form-select">
+              <option selected>TRENDING NOW</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <select class="form-select">
+              <option selected>SIZE</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <select class="form-select">
+              <option selected>PRICE</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+        </div>
+        <div class="cards container">
+          <a href="product.html" class="card">
+            <div class="card-img-top-1">
+              <div class="card-opac">
+                <button class="buy-button flex">
+                  <img src="icons/cart-add.svg" alt="" />
+                  <p class="add-to-cart">Add to Cart</p>
+                </button>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <p class="card-heading">ELLERY X M'O CAPSULE</p>
+              <p class="card-info">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <p class="card-price">$52.00</p>
+            </div>
+          </a>
+          <a href="product.html" class="card">
+            <div class="card-img-top-2">
+              <div class="card-opac">
+                <button class="buy-button">
+                  <img src="icons/cart-add.svg" alt="" />
+                  <p class="add-to-cart">Add to Cart</p>
+                </button>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <p class="card-heading">ELLERY X M'O CAPSULE</p>
+              <p class="card-info">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <p class="card-price">$52.00</p>
+            </div>
+          </a>
+          <a href="product.html" class="card">
+            <div class="card-img-top-3">
+              <div class="card-opac">
+                <button class="buy-button flex">
+                  <img src="icons/cart-add.svg" alt="" />
+                  <p class="add-to-cart">Add to Cart</p>
+                </button>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <p class="card-heading">ELLERY X M'O CAPSULE</p>
+              <p class="card-info">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <p class="card-price">$52.00</p>
+            </div>
+          </a>
+          <a href="product.html" class="card">
+            <div class="card-img-top-4">
+              <div class="card-opac">
+                <button class="buy-button flex">
+                  <img src="icons/cart-add.svg" alt="" />
+                  <p class="add-to-cart">Add to Cart</p>
+                </button>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <p class="card-heading">ELLERY X M'O CAPSULE</p>
+              <p class="card-info">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <p class="card-price">$52.00</p>
+            </div>
+          </a>
+          <a href="product.html" class="card">
+            <div class="card-img-top-5">
+              <div class="card-opac">
+                <button class="buy-button flex">
+                  <img src="icons/cart-add.svg" alt="" />
+                  <p class="add-to-cart">Add to Cart</p>
+                </button>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <p class="card-heading">ELLERY X M'O CAPSULE</p>
+              <p class="card-info">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <p class="card-price">$52.00</p>
+            </div>
+          </a>
+          <a href="product.html" class="card">
+            <div class="card-img-top-6">
+              <div class="card-opac">
+                <button class="buy-button flex">
+                  <img src="icons/cart-add.svg" alt="" />
+                  <p class="add-to-cart">Add to Cart</p>
+                </button>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <p class="card-heading">ELLERY X M'O CAPSULE</p>
+              <p class="card-info">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <p class="card-price">$52.00</p>
+            </div>
+          </a>
+          <a href="product.html" class="card">
+            <div class="card-img-top-2">
+              <div class="card-opac">
+                <button class="buy-button">
+                  <img src="icons/cart-add.svg" alt="" />
+                  <p class="add-to-cart">Add to Cart</p>
+                </button>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <p class="card-heading">ELLERY X M'O CAPSULE</p>
+              <p class="card-info">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <p class="card-price">$52.00</p>
+            </div>
+          </a>
+          <a href="product.html" class="card">
+            <div class="card-img-top-1">
+              <div class="card-opac">
+                <button class="buy-button flex">
+                  <img src="icons/cart-add.svg" alt="" />
+                  <p class="add-to-cart">Add to Cart</p>
+                </button>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <p class="card-heading">ELLERY X M'O CAPSULE</p>
+              <p class="card-info">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <p class="card-price">$52.00</p>
+            </div>
+          </a>
+          <a href="product.html" class="card">
+            <div class="card-img-top-4">
+              <div class="card-opac">
+                <button class="buy-button flex">
+                  <img src="icons/cart-add.svg" alt="" />
+                  <p class="add-to-cart">Add to Cart</p>
+                </button>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <p class="card-heading">ELLERY X M'O CAPSULE</p>
+              <p class="card-info">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <p class="card-price">$52.00</p>
+            </div>
+          </a>
+        </div>
+        <nav class="navigation container">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="link-item" href="#"
+                ><img
+                  class="arrow-link"
+                  src="icons/arrow-left.svg"
+                  alt="arrow-left"
+              /></a>
+            </li>
+            <li class="page-item"><a class="link-item" href="#">1</a></li>
+            <li class="page-item"><a class="link-item" href="#">2</a></li>
+            <li class="page-item"><a class="link-item" href="#">3</a></li>
+            <li class="page-item"><a class="link-item" href="#">4</a></li>
+            <li class="page-item"><a class="link-item" href="#">5</a></li>
+            <li class="page-item"><a class="link-item" href="#">6</a></li>
+            <li class="page-item"><a class="link-item" href="#">7</a></li>
+            <li class="page-item">
+              <a class="link-item" href="#"
+                ><img
+                  class="arrow-link"
+                  src="icons/arrow-right.svg"
+                  alt="arrow-right"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section class="benefits">
+        <div class="container flex">
+          <div class="free flex-item-bottom">
+            <img class="car" src="icons/car.png" alt="car" />
+            <p class="bottom-text">Free Delivery</p>
+            <p class="bottom-parag">
+              Worldwide delivery on all. Authorit tively morph next-generation
+              innov tion with extensive models.
+            </p>
+          </div>
+          <div class="sales flex-item-bottom">
+            <img class="sale" src="icons/sale.png" alt="sale" />
+            <p class="bottom-text">Sales & discounts</p>
+            <p class="bottom-parag">
+              Worldwide delivery on all. Authorit tively morph next-generation
+              innov tion with extensive models.
+            </p>
+          </div>
+          <div class="assurance flex-item-bottom">
+            <img class="crown" src="icons/crown.png" alt="crown" />
+            <p class="bottom-text">Quality assurance</p>
+            <p class="bottom-parag">
+              Worldwide delivery on all. Authorit tively morph next-generation
+              innov tion with extensive models.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <section class="footer-top">
+        <div class="container flex">
+          <figure class="comment">
+            <img
+              class="img-comment"
+              src="icons/img-comment.png"
+              alt="img-comment"
+            />
+            <p class="text-comment">
+              “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+              pulvinar purus condimentum“
+            </p>
+          </figure>
+          <section class="subscribe">
+            <p class="sub-heading">SUBSCRIBE</p>
+            <p class="sub-text">FOR OUR NEWLETTER AND PROMOTION</p>
+            <form class="flex-form" action="#">
+              <input
+                class="sub-input"
+                type="text"
+                placeholder="Enter Your Email"
+              />
+              <input class="submit" type="submit" value="Submit" />
+            </form>
+          </section>
+        </div>
+      </section>
+
+      <section class="footer-bottom">
+        <div class="container flex">
+          <p class="copyright">&#169; 2021 Brand All Rights Reserved.</p>
+          <div class="icons flex">
+            <a href="#" class="face icon">
+              <svg
+                class="bottom-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+                />
+              </svg>
+            </a>
+            <a href="#" class="insta icon">
+              <svg
+                class="bottom-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                />
+              </svg>
+            </a>
+            <a href="#" class="pint icon">
+              <svg
+                class="bottom-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 0c-6.627 0-12 5.372-12 12 0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146 1.124.347 2.317.535 3.554.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+            <a href="#" class="twit icon">
+              <svg
+                class="bottom-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
