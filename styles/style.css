@@ -267,6 +267,7 @@ a {
 }
 
 .browse-button {
+  display: block;
   background-color: #fff;
   color: #f16d7f;
   border: 1px solid rgb(255, 106, 106);
