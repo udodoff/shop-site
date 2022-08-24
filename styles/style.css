@@ -13,8 +13,14 @@ a {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1200px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin: 0 auto;
+}
+
+.k {
+  width: 100%;
 }
 
 .menu-icon {
@@ -130,6 +136,10 @@ a {
   margin-top: 30px;
 }
 
+.top-cards {
+  gap: 30px;
+}
+
 .card-top {
   position: relative;
 }
@@ -140,29 +150,33 @@ a {
 
 .women-text {
   position: absolute;
-  top: 105px;
-  left: 103px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
 .man-text {
   position: absolute;
-  top: 105px;
-  left: 125px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
 .kid-text {
   position: absolute;
-  top: 105px;
-  left: 123px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
 .acc-text {
   position: absolute;
-  top: 65px;
-  left: 491px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
@@ -192,6 +206,10 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.c {
+  width: 100%;
 }
 
 .fetured-p {
@@ -337,9 +355,20 @@ a {
 .footer-top {
   background-image: url(../icons/footer-back.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
+  background-size: cover;
 }
 
+@media (max-width: 1140px) {
+  .cards {
+    justify-content: center;
+    margin-top: 72px;
+    gap: 20px;
+  }
+  .card {
+    margin-top: 0;
+  }
+}
 .comment {
   display: flex;
   flex-direction: column;
@@ -347,7 +376,7 @@ a {
   text-align: center;
   padding-top: 110px;
   padding-bottom: 113px;
-  width: 359px;
+  width: 40%;
 }
 
 .img-comment {
@@ -371,10 +400,12 @@ a {
   display: flex;
   flex-direction: column;
   padding-top: 150px;
+  width: 29%;
 }
 
 .flex-form {
   display: flex;
+  width: 100%;
 }
 
 .sub-heading {
@@ -397,7 +428,7 @@ a {
 
 .sub-input {
   background-color: #e1e1e1;
-  width: 256px;
+  width: 70%;
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
@@ -414,7 +445,7 @@ a {
 }
 
 .submit {
-  width: 100px;
+  width: 30%;
   border-radius: 0 25px 25px 0;
   background-color: #f16d7f;
   border: none;
@@ -468,37 +499,55 @@ a {
 
 .card-img-top-1 {
   background-image: url(../icons/card-man-1.png);
-  width: 360px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 420px;
 }
 
 .card-img-top-2 {
   background-image: url(../icons/card-man-2.png);
-  width: 360px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 420px;
 }
 
 .card-img-top-3 {
   background-image: url(../icons/card-man-3.png);
-  width: 360px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 420px;
 }
 
 .card-img-top-4 {
   background-image: url(../icons/card-man-4.png);
-  width: 360px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 420px;
 }
 
 .card-img-top-5 {
   background-image: url(../icons/card-man-5.png);
-  width: 360px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 420px;
 }
 
 .card-img-top-6 {
   background-image: url(../icons/card-man-6.png);
-  width: 360px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 420px;
 }
 
