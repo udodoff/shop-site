@@ -2,6 +2,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lato";
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.content-wrapper {
+  flex: 1;
 }
 
 a {
@@ -13,13 +29,15 @@ a {
 }
 
 .container {
-  max-width: 1200px;
-  padding-left: 30px;
-  padding-right: 30px;
+  max-width: 1172px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
 }
 
 .k {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -36,6 +54,11 @@ a {
 
 .logo-img {
   height: 38px;
+}
+
+.flex-ben {
+  display: flex;
+  justify-content: space-between;
 }
 
 .flex {
@@ -70,19 +93,22 @@ a {
 
 .top-section {
   background-color: #f1e4e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .img-back-man {
-  height: 764px;
+  height: 100%;
   width: 50%;
+  display: flex;
+  align-items: center;
 }
 
 .top-section-p {
   width: 50%;
-  padding-top: 281px;
   padding-left: 63px;
   display: flex;
-  align-items: flex-start;
 }
 
 .rect-icon {
@@ -130,6 +156,7 @@ a {
   display: flex;
   flex-direction: column;
   padding-top: 64px;
+  align-items: center;
 }
 
 .forth {
@@ -228,18 +255,18 @@ a {
   font-size: 14px;
   line-height: 17px;
   color: #9f9f9f;
-  margin-bottom: 17px;
+  margin-bottom: 48px;
 }
 
 .cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
   flex-wrap: wrap;
 }
 
 .card {
   display: block;
-  margin-top: 30px;
   width: 360px;
   background-color: #f8f8f8;
 }
@@ -359,16 +386,25 @@ a {
   background-size: cover;
 }
 
+.big-man {
+  width: 100%;
+}
+
 @media (max-width: 1140px) {
   .cards {
     justify-content: center;
     margin-top: 72px;
-    gap: 20px;
+    gap: 16px;
   }
 
   .card {
     margin-top: 0;
   }
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
 }
 
 .comment {
@@ -439,6 +475,7 @@ a {
   color: #222224;
   opacity: 0.67;
   padding-left: 22px;
+  padding-right: 22px;
   padding-top: 15px;
   padding-bottom: 15px;
   border-radius: 25px 0 0 25px;
@@ -617,10 +654,10 @@ a {
   z-index: 100;
   padding-right: 0;
   display: none;
+  width: 232px;
 }
 
 .menu-heading {
-  width: 232px;
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
@@ -656,4 +693,181 @@ a {
 
 .menu-icon:hover .mega-box {
   display: block;
+}
+
+@media (max-width:1270px) {
+  .mega-box {
+    left: -195px;
+  }
+}
+
+@media (max-width:1024px) {
+  .brand {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 53px;
+  }
+
+  .luxe {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .fashion {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+  }
+
+  .rect-icon {
+    height: 86px;
+  }
+
+  .off {
+    font-size: 14px;
+  }
+
+  .f-w {
+    font-size: 17px;
+  }
+
+  .categories {
+    padding-top: 20px;
+  }
+
+  .benefits {
+    padding-top: 48px;
+    padding-bottom: 64px;
+  }
+
+  .flex-ben {
+    align-items: center;
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .footer-top {
+    padding-bottom: 140px;
+  }
+
+  .flex-item-bottom {
+    width: 360px;
+  }
+
+  .k {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .comment {
+    width: 48%;
+    padding-top: 53px;
+    padding-bottom: 48px;
+  }
+
+  .subscribe {
+    padding-top: 0;
+    width: 48%;
+  }
+}
+
+@media (max-width:768px) {
+  .nav-icons {
+    justify-content: flex-end;
+  }
+
+  .reg-link,
+  .cart-link {
+    display: none;
+  }
+
+  .top-section {
+    padding-top: 148px;
+    padding-bottom: 148px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .img-back-man {
+    display: none;
+  }
+
+  .top-section-p {
+    padding-left: 0;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .brand {
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .luxe,
+  .fashion {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .rect-icon {
+    height: 64px;
+  }
+
+  .top-cards {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .off {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+
+  .f-w {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+  }
+
+  .forth {
+    width: 360px;
+    height: 111px;
+  }
+
+  .c {
+    height: 100%;
+  }
+
+  .fetured-items {
+    margin-top: 64px;
+  }
+
+  .cards {
+    margin-top: 16px;
+  }
+
+  .browse-button {
+    margin-top: 41px;
+  }
+
+  .comment {
+    width: 90%;
+  }
+
+  .subscribe {
+    width: 90%;
+  }
+
+  .footer-flex {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 43px;
+  }
+
+  .copyright {
+    padding-top: 40px;
+    padding-bottom: 9px;
+  }
 }
