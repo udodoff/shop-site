@@ -74,9 +74,24 @@
               <a class="reg-link" href="registration.html"
                 ><img class="cabinet" src="icons/cabinet.svg" alt="cabinet"
               /></a>
-              <a class="cart-link" href="cart.html"
-                ><img class="cart" src="icons/cart.svg" alt="cart"
-              /></a>
+              <a class="cart-link" href="cart.html">
+                <div class="circle-red">0</div>
+                <img class="cart" src="icons/cart.svg" alt="cart" />
+                <div class="basket hidden">
+                  <div class="basketRow basketHeader">
+                    <div>Название товара</div>
+                    <div>Количество</div>
+                    <div>Цена за шт.</div>
+                    <div>Итого</div>
+                  </div>
+
+                  <div class="basketTotal">
+                    Товаров в корзине на сумму: $<span class="basketTotalValue"
+                      >0</span
+                    >
+                  </div>
+                </div>
+              </a>
             </div>
           </nav>
         </header>
@@ -147,7 +162,13 @@
                 Shop for items based on what we featured in this week
               </p>
               <div class="cards">
-                <a href="product.html" class="card">
+                <a
+                  href="product.html"
+                  class="card"
+                  data-id="1"
+                  data-name="ELLERY X M'O CAPSULE"
+                  data-price="52"
+                >
                   <div class="card-img-top-1">
                     <div class="card-opac">
                       <button class="buy-button flex">
@@ -167,7 +188,13 @@
                     <p class="card-price">$52.00</p>
                   </div>
                 </a>
-                <a href="product.html" class="card">
+                <a
+                  href="product.html"
+                  class="card"
+                  data-id="2"
+                  data-name="ELLERY X"
+                  data-price="40"
+                >
                   <div class="card-img-top-2">
                     <div class="card-opac">
                       <button class="buy-button">
@@ -178,13 +205,13 @@
                   </div>
 
                   <div class="card-content">
-                    <p class="card-heading">ELLERY X M'O CAPSULE</p>
+                    <p class="card-heading">ELLERY X</p>
                     <p class="card-info">
                       Known for her sculptural takes on traditional tailoring,
                       Australian arbiter of cool Kym Ellery teams up with Moda
                       Operandi.
                     </p>
-                    <p class="card-price">$52.00</p>
+                    <p class="card-price">$40.00</p>
                   </div>
                 </a>
                 <a href="product.html" class="card">
@@ -398,5 +425,6 @@
         </section>
       </footer>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>

@@ -72,6 +72,11 @@ a {
   align-items: center;
 }
 
+.cart-link {
+  display: block;
+  position: relative;
+}
+
 .nav-flex {
   padding-top: 19px;
   padding-bottom: 19px;
@@ -659,6 +664,79 @@ a {
   padding-right: 0;
   display: none;
   width: 232px;
+}
+
+.rightHeader {
+  position: relative;
+}
+
+.basket {
+  position: absolute;
+  z-index: 3;
+  right: 0;
+  background: white;
+  padding: 10px;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #5d5d5d;
+
+  &:visited {
+    color: #5d5d5d;
+  }
+}
+
+.basketTotal {
+  color: #f16d7f;
+}
+
+.circle-red {
+  background-color: #f16d7f;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  text-decoration: none;
+  z-index: 10;
+  text-align: center;
+  color: #fff;
+  top: -5px;
+  left: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 340px) {
+  .basket {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 552px) {
+  .basket {
+    width: 500px;
+  }
+}
+
+.basketRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 10px;
+}
+
+.basketHeader {
+  font-weight: bold;
+}
+
+.basketTotal {
+  font-weight: bold;
+  text-align: right;
 }
 
 .menu-heading {
