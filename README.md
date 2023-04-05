@@ -1,2 +1,2 @@
-# shop-site-GB
-second study project
+# shop-site
+study project(without logic, just UI)
